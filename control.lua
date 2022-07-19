@@ -1,16 +1,16 @@
-require '__FARL__/stdlib/string'
-require '__FARL__/stdlib/table'
-require "__FARL__/FarlSettings"
-require "__FARL__/FARL"
-require "__FARL__/GUI"
-local lib = require "__FARL__/lib_control"
+require '__FARL-fixed-se__/stdlib/string'
+require '__FARL-fixed-se__/stdlib/table'
+require "__FARL-fixed-se__/FarlSettings"
+require "__FARL-fixed-se__/FARL"
+require "__FARL-fixed-se__/GUI"
+local lib = require "__FARL-fixed-se__/lib_control"
 local saveVar = lib.saveVar
 local debugDump = lib.debugDump
 local mod_gui = require '__core__/lualib/mod-gui'
 
-local Position = require '__FARL__/stdlib/area/position'
+local Position = require '__FARL-fixed-se__/stdlib/area/position'
 
-local v = require '__FARL__/semver'
+local v = require '__FARL-fixed-se__/semver'
 
 local MOD_NAME = "FARL"
 

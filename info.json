@@ -1,12 +1,12 @@
 {
-  "name": "FARL",
-  "version": "4.1.3",
+  "name": "FARL-fixed-se",
+  "version": "4.1.4",
   "factorio_version": "1.1",
-  "title": "Fully Automated Rail Layer",
-  "author": "Choumiko",
-  "homepage": "https://github.com/Choumiko/FARL",
-  "contact": "Discord: Choumiko#6179",
-  "description": "Fully automated rail-layer",
+  "title": "Fully Automated Rail Layer fixed for SE 0.6",
+  "author": "madmath",
+  "homepage": "https://github.com/madmath2/FARL-fixed-se",
+  "contact": "Discord: madmath#3962",
+  "description": "Fully automated rail-layer (fixed for SE 0.6)",
   "dependencies": ["(?) VehiclesEquipement", "(?) TheFatController"],
   "package":{
     "ignore":[ "*.zip", "*.xcf" ]

@@ -1,4 +1,4 @@
-local lib = require "__FARL__/lib_control"
+local lib = require "__FARL-fixed-se__/lib_control"
 local saveVar = lib.saveVar
 local debugDump = lib.debugDump
 local startsWith = lib.startsWith

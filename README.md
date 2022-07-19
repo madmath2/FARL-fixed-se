@@ -1,4 +1,12 @@
 # FARL
+
+## Fixed for Space Exploration 0.6
+Original mod by [Choumiko](https://mods.factorio.com/user/Choumiko) available [here](https://mods.factorio.com/mod/FARL).
+
+This version only adds [this fix](https://github.com/Choumiko/FARL/pull/112) for a crash with Space Exploration 0.6, but is otherwise identical to the original mod. All credits for the awesome work should go to Choumiko.
+
+## Original description
+
 (Fully Automated Rail Layer)
 
 - Places rails, signals, electric poles, concrete, etc. while driving

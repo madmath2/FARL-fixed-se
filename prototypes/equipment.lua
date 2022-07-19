@@ -1,7 +1,7 @@
 if not settings.startup["farl_enable_module"].value then
     return
 end
-local copyPrototype = require "__FARL__/lib"
+local copyPrototype = require "__FARL-fixed-se__/lib"
 data:extend
     {
         {
@@ -53,7 +53,7 @@ end
 local farlRoboportItem = copyPrototype("item", "personal-roboport-equipment", "farl-roboport", true)
 farlRoboportItem.subgroup = "train-transport"
 farlRoboportItem.order = "a[train-system]-j[farl]"
-farlRoboportItem.icon = "__FARL__/graphics/icons/farl-roboport.png"
+farlRoboportItem.icon = "__FARL-fixed-se__/graphics/icons/farl-roboport.png"
 farlRoboportItem.icon_size = 32
 farlRoboportItem.icon_mipmaps = 0
 

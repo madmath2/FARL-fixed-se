@@ -1,9 +1,9 @@
 require "__core__/lualib/util"
-local Position = require '__FARL__/stdlib/area/position'
-local Area = require '__FARL__/stdlib/area/area'
-local Blueprint = require "__FARL__/Blueprint"
+local Position = require '__FARL-fixed-se__/stdlib/area/position'
+local Area = require '__FARL-fixed-se__/stdlib/area/area'
+local Blueprint = require "__FARL-fixed-se__/Blueprint"
 
-local lib = require "__FARL__/lib_control"
+local lib = require "__FARL-fixed-se__/lib_control"
 local debugDump = lib.debugDump
 local debugLog = lib.debugLog
 local endsWith = lib.endsWith

@@ -60,7 +60,7 @@ data:extend({
     {
         type="sprite",
         name="farl_settings",
-        filename = "__FARL__/graphics/icons/settings.png",
+        filename = "__FARL-fixed-se__/graphics/icons/settings.png",
         priority = "extra-high",
         width = 64,
         height = 64,

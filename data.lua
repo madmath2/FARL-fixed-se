@@ -1,11 +1,11 @@
-local copyPrototype = require "__FARL__/lib"
+local copyPrototype = require "__FARL-fixed-se__/lib"
 
-require("__FARL__/prototypes/equipment")
-require("__FARL__/prototypes/entity/entities")
+require("__FARL-fixed-se__/prototypes/equipment")
+require("__FARL-fixed-se__/prototypes/entity/entities")
 
-require("__FARL__/prototypes/item/item")
-require("__FARL__/prototypes/recipe/recipe")
-require("__FARL__/prototypes/styles")
+require("__FARL-fixed-se__/prototypes/item/item")
+require("__FARL-fixed-se__/prototypes/recipe/recipe")
+require("__FARL-fixed-se__/prototypes/styles")
 
 local player = copyPrototype("character", "character", "farl_player")
 player.healing_per_tick = 100
