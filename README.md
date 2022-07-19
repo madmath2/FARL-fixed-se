@@ -1,9 +1,13 @@
 # FARL
 
 ## Fixed for Space Exploration 0.6
-Original mod by [Choumiko](https://mods.factorio.com/user/Choumiko) available [here](https://mods.factorio.com/mod/FARL).
+Original mod by [Choumiko](https://mods.factorio.com/user/Choumiko) available [here](https://mods.factorio.com/mod/FARL). All credits for the awesome work should go to Choumiko.
 
-This version only adds [this fix](https://github.com/Choumiko/FARL/pull/112) for a crash with Space Exploration 0.6, but is otherwise identical to the original mod. All credits for the awesome work should go to Choumiko.
+This version only adds [this fix](https://github.com/Choumiko/FARL/pull/112) for a crash with Space Exploration 0.6, but is otherwise identical to the original mod.
+
+## Migration warning
+
+If you're migrating from the original FARL mod to this one on an existing save, you will lose in-game FARL settings. All FARL entities (locomotives & FARL modules) will be migrated properly and should remain in the save, but you will need to reimport your blueprints into FARL and reconfigure all in-game settings (this is a limitation of the Factorio modding API). Plan accordingly.
 
 ## Original description
 
