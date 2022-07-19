@@ -12,7 +12,7 @@ local Position = require '__FARL-fixed-se__/stdlib/area/position'
 
 local v = require '__FARL-fixed-se__/semver'
 
-local MOD_NAME = "FARL"
+local MOD_NAME = "FARL-fixed-se"
 
 local function resetMetatable(o, mt)
     setmetatable(o,{__index=mt})
